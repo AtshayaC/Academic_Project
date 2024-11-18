@@ -1,0 +1,45 @@
+/* GSTCalculation.css */
+.gst-calculation {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .gst-calculation h2 {
+    margin-bottom: 20px;
+  }
+  
+  .gst-input {
+    margin-bottom: 20px;
+  }
+  
+  .gst-input label {
+    margin-right: 10px;
+  }
+  
+  .gst-input input {
+    padding: 5px;
+    width: 80px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  button:disabled {
+    background-color: #6c757d;
+  }
+  
+  .gst-results p {
+    margin: 10px 0;
+  }
+  

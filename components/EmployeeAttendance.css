@@ -1,0 +1,148 @@
+/* Reset default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fffefe;
+    align-content: center;
+  }
+  
+  /* Container for the entire app */
+  .app {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Heading */
+  .app h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  /* Options section */
+  .options {
+    margin-bottom: 20px;
+  }
+  
+  .options button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .options button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Add employee form */
+  .add-employee-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .add-employee-form h3 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .add-employee-form table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .add-employee-form input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .add-employee-form button {
+    padding: 12px;
+    background-color: #eaf0ec;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .add-employee-form button:hover {
+    background-color: #e9f3eb;
+  }
+  
+  /* Employee list section */
+  .employee-list {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(30, 29, 29, 0.1);
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .employee-list h3 {
+    margin-bottom: 20px;
+    color: #e7a4a4;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .employee-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .employee-list table, .employee-list th, .employee-list td {
+    border: 1px solid #ddd;
+  }
+  
+  .employee-list th, .employee-list td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .employee-list th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .employee-list td {
+    background-color: #fff;
+  }
+  
+  .employee-list button {
+    padding: 8px 12px;
+    margin: 5px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .employee-list button:hover {
+    opacity: 0.8;
+  }
+  
+  .employee-list select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
